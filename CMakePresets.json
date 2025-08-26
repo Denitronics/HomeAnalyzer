@@ -1,0 +1,19 @@
+{
+   "version": 3,
+   "cmakeMinimumRequired": {
+     "major": 3,
+     "minor": 20
+    },
+   "configurePresets": [
+    {
+       "name": "STM32F207",
+       "hidden": false,
+       "generator": "Ninja",
+       "binaryDir": "${sourceDir}/build/STM32F207",
+       "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+        },
+       "toolchainFile": "${sourceDir}/config/cmake/stm32f207.cmake"
+    }
+   ]
+}

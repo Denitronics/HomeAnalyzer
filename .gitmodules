@@ -1,0 +1,9 @@
+[submodule "external/lwip"]
+	path = external/lwip
+	url = https://github.com/lwip-tcpip/lwip.git
+[submodule "external/freertos"]
+	path = external/freertos
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "external/stm32f2"]
+	path = external/stm32f2
+	url = https://github.com/STMicroelectronics/STM32CubeF2.git

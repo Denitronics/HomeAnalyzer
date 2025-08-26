@@ -1,0 +1,5 @@
+add_subdirectory(core)
+add_subdirectory(led)
+add_subdirectory(logger)
+add_subdirectory(serial)
+add_subdirectory(lwip)

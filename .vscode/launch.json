@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cortex Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "stlink",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/STM32F207/src/Core/HomeAnalyzer.elf",
+      "device": "STM32F207ZG",
+      "svdFile": "${workspaceFolder}/config/stm/stm32f2.svd",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+    }
+  ]
+}

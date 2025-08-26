@@ -1,0 +1,27 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.options.statusBarVisibility": "visible",
+    "files.associations": {
+        "stm32f2xx_hal_dma_ex.h": "c",
+        "stm32f2xx_hal_def.h": "c",
+        "cassert": "cpp",
+        "stm32f2xx_hal.h": "c",
+        "stm32f2xx_hal_conf.h": "c",
+        "stm32f2xx.h": "c",
+        "stm32f205xx.h": "c",
+        "stm32f215xx.h": "c",
+        "stm32f2xx_it.h": "c",
+        "ethernetif.h": "c",
+        "cpu.h": "c",
+        "stm32f207xx.h": "c",
+        "freertos.h": "c",
+        "lwip.h": "c",
+        "netif.h": "c",
+        "init.h": "c",
+        "sio.h": "c",
+        "cmsis_os.h": "c",
+        "timeouts.h": "c",
+        "pinout.h": "c"
+    },
+    "stm32-for-vscode.openOCDPath": false
+}
